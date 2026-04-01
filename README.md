@@ -111,6 +111,24 @@ Kurulum tamamlandığında:
   - `HKCR\*\shell\RunAsTI`
   - `HKCR\Directory\shell\RunAsTI`
   - `HKCR\Directory\Background\shell\RunAsTI`
+ 
+### 🚀 Yenilikler ve İyileştirmeler (01.04.2026)
+
+- **Yüksek Çözünürlük (DPI) Desteği Eklendi:**
+- Betik düzeyinde çalışan tüm arayüz pencereleri (ilerleme çubuğu, uyarı mesajları vb.) için SetProcessDPIAware API entegrasyonu sağlandı.
+- Modern 2K/4K monitörlerde veya ekran ölçeklendirmesi (%125, %150 vb.) kullanan cihazlarda arayüz elemanlarının bulanık (blurry) görünme sorunu çözüldü. Artık tüm pencereler orijinal çözünürlükte, keskin ve net çiziliyor.
+
+- **🔒 Güvenlik ve Yetki İyileştirmeleri (Security & Privileges)**
+- Gelişmiş İşletim Sistemi İzinleri (Process Token Privileges) Etkinleştirildi:
+- Uygulama çalıştırıldığında o an varsayılan olarak kapalı (Disabled) bekleyen tüm çekirdek düzeyindeki hesap izinleri zorla aktif (Enabled) konuma getirildi.
+
+- **Kazanılan Temel Yetkiler:**
+- SeLoadDriverPrivilege: Arka planda donanım aygıt sürücüsü (driver) yükleme ve kaldırma yeteneği.
+- SeTakeOwnershipPrivilege & SeRestorePrivilege: Silinemeyen, kilitli ve değiştirilemeyen inatçı sistem dosyalarının/dizinlerinin sahipliğini alma ve geri yükleme gücü.
+- SeSystemtimePrivilege: Sistem saatini değiştirebilme yetkisi.
+- SeLockMemoryPrivilege: Bellek (RAM) üzerinde sayfaları kilitleyebilme yetisi.
+
+Sonuç: Altyapı artık işletim sisteminin izin verebileceği maksimum sınırlardaki tüm erişim haklarını kısıtlamasız kullanabilir durumda.
 
 ---
 
@@ -217,6 +235,24 @@ After installation:
   - `HKCR\Directory\shell\RunAsTI`
   - `HKCR\Directory\Background\shell\RunAsTI`
 
+
+### 🚀 What's New & Improvements (01.04.2026)
+
+- **Added High-DPI Awareness Support:**
+- Integrated the SetProcessDPIAware API for all user interface windows (progress bars, message boxes, etc.) running at the script level.
+- Completely resolved the issue of blurry text and UI elements on modern 2K/4K monitors or devices utilizing custom display scaling (e.g., 125%, 150%). All windows are now rendered at their native resolution with crystal-clear sharpness.
+
+- **🔒 Security & Privileges**
+- Activated Advanced Operating System Permissions (Process Token Privileges):
+- All core-level account permissions that are typically "Disabled" upon execution have been forcefully switched to the "Enabled" (Active) state within the process token.
+
+- **Key Privileges Acquired:**
+- SeLoadDriverPrivilege: The ability to load and unload hardware device drivers in the background.
+- SeTakeOwnershipPrivilege & SeRestorePrivilege: The absolute power to take ownership of and restore stubborn, undeletable, or locked system files and directories.
+- SeSystemtimePrivilege: The authority to modify the system clock.
+- SeLockMemoryPrivilege: The capability to lock memory pages in RAM.
+
+Result: The backend infrastructure is now fully empowered to operate without restrictions, utilizing the maximum extent of access rights granted by the operating system.
 ---
 
 ## Author
