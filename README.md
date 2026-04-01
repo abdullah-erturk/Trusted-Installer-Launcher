@@ -131,7 +131,6 @@ Kurulum tamamlandığında:
 - SeLockMemoryPrivilege: Bellek (RAM) üzerinde sayfaları kilitleyebilme yetisi.
 
 Sonuç: Altyapı artık işletim sisteminin izin verebileceği maksimum sınırlardaki tüm erişim haklarını kısıtlamasız kullanabilir durumda.
-
 ---
 
 ## Yazar
