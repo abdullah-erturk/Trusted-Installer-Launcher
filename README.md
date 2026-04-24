@@ -136,7 +136,7 @@ Sonuç: Altyapı artık işletim sisteminin izin verebileceği maksimum sınırl
 ## Yazar
 **Abdullah ERTÜRK**
 * [https://github.com/abdullah-erturk](https://github.com/abdullah-erturk)
-* [https://erturk.netlify.app](https://erturk.netlify.app)
+* [https://erturk-dev.netlify.app](https://erturk-dev.netlify.app)
 
 ---
 ⭐ Projeyi beğendiyseniz yıldız vermeyi unutmayın!  
@@ -259,12 +259,10 @@ Result: The backend infrastructure is now fully empowered to operate without res
 ## Author
 **Abdullah ERTÜRK**
 * [https://github.com/abdullah-erturk](https://github.com/abdullah-erturk)
-* [https://erturk.netlify.app](https://erturk.netlify.app)
+* [https://erturk-dev.netlify.app](https://erturk-dev.netlify.app)
 
 ---
 
 ⭐ If you like the project, don't forget to give it a star!
 
 </details>
-
-
