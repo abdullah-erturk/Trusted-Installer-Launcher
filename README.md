@@ -118,7 +118,7 @@ Kurulum tamamlandığında:
  
 
 
-### 🚀 Yenilikler ve İyileştirmeler (01.04.2026)
+### 🚀 Yenilikler ve İyileştirmeler (28.08.2026)
 
 - **Yüksek Çözünürlük (DPI) Desteği Eklendi:**
 - Betik düzeyinde çalışan tüm arayüz pencereleri (ilerleme çubuğu, uyarı mesajları vb.) için SetProcessDPIAware API entegrasyonu sağlandı.
@@ -243,7 +243,7 @@ After installation:
 
 
 
-### 🚀 What's New & Improvements (01.04.2026)
+### 🚀 What's New & Improvements (28.08.2026)
 
 - **Added High-DPI Awareness Support:**
 - Integrated the SetProcessDPIAware API for all user interface windows (progress bars, message boxes, etc.) running at the script level.
