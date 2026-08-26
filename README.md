@@ -5,6 +5,8 @@
 
 ![sample](https://github.com/abdullah-erturk/Trusted-Installer-Launcher/blob/main/preview.jpg)
 
+![sample](https://github.com/abdullah-erturk/Trusted-Installer-Launcher/blob/main/TI_choice.jpg)
+
 ![sample](https://github.com/abdullah-erturk/Trusted-Installer-Launcher/blob/main/SecPriv.jpg)
 
 ![sample](https://github.com/abdullah-erturk/Trusted-Installer-Launcher/blob/main/preview.gif)
