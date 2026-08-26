@@ -47,7 +47,7 @@ Windows'ta bazı sistem dosyaları, klasörler ve hizmetler Administrator yetkis
 
 1. **Script'i İndirin**: `TrustedInstaller.bat` dosyasını indirin
 2. **Script'i Çalıştırın**: Dosyaya çift tıklayın
-3. **Kurulum Seçin**: Açılan menüden "Hayır" (Sisteme Kur) seçeneğini seçin
+3. **Kurulum Seçin**: Açılan menüden "⚙️ Kur / Kaldır / Güncelle" seçeneğini seçin
 4. **Onaylayın**: UAC (Kullanıcı Hesabı Denetimi) isteğini onaylayın
 
 Kurulum tamamlandığında:
@@ -99,8 +99,8 @@ Kurulum tamamlandığında:
 ### 🗑️ Kaldırma
 
 1. Script'i çalıştırın
-2. "Hayır" (Sisteme Kur) seçeneğini seçin
-3. "Zaten kurulu" mesajında "Hayır" (Kaldır) seçeneğini seçin
+2. "⚙️ Kur / Kaldır / Güncelle" seçeneğini seçin
+3. "Zaten kurulu" mesajında "Kaldır" seçeneğini seçin
 4. Tüm dosyalar ve registry kayıtları temizlenecektir
 
 ### 🔧 Teknik Detaylar
@@ -114,6 +114,8 @@ Kurulum tamamlandığında:
   - `HKCR\Directory\shell\RunAsTI`
   - `HKCR\Directory\Background\shell\RunAsTI`
  
+
+
 ### 🚀 Yenilikler ve İyileştirmeler (01.04.2026)
 
 - **Yüksek Çözünürlük (DPI) Desteği Eklendi:**
@@ -169,7 +171,7 @@ Some system files, folders and services in Windows cannot be edited even with Ad
 
 1. **Download the Script**: Download `TrustedInstaller.bat`
 2. **Run the Script**: Double-click the file
-3. **Choose Install**: Select "NO" (Install to System) from the menu
+3. **Choose Install**: Select "⚙️ Install / Uninstall / Update" from the menu
 4. **Confirm**: Approve the UAC (User Account Control) prompt
 
 After installation:
@@ -221,8 +223,8 @@ After installation:
 ### 🗑️ Uninstallation
 
 1. Run the script
-2. Select "NO" (Install to System)
-3. In "Already installed" message, select "NO" (Uninstall)
+2. Select "⚙️ Install / Uninstall / Update"
+3. In "Already installed" message, select "Uninstall"
 4. All files and registry entries will be cleaned
 
 ### 🔧 Technical Details
@@ -235,6 +237,8 @@ After installation:
   - `HKCR\*\shell\RunAsTI`
   - `HKCR\Directory\shell\RunAsTI`
   - `HKCR\Directory\Background\shell\RunAsTI`
+
+
 
 
 ### 🚀 What's New & Improvements (01.04.2026)
